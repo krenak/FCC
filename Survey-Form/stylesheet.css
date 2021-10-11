@@ -1,0 +1,15 @@
+main {
+    font-family: monospace;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    max-width: 100%;
+    width: 48rem;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
