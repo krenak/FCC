@@ -1,15 +1,24 @@
 main {
-    font-family: monospace;
+    margin-top: 100px;
+    font-family: "lato", sans-serif;
     font-size: 14px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 form {
-    max-width: 100%;
-    width: 48rem;
-    height: auto;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+#survey-form {
+    padding: 5px;
 }
