@@ -7,27 +7,63 @@
     <body>
         <main>
             <div action="" class="form">
-                <div id="titleForm">
+                <div id="title-description">
                 <h1 id="title">Architectural Form</h1>
                 <p id="description">Architectural form to map all your needs and to better serve you!</p>
                 </div>
                 <div id="form">
                     <form id="survey-form">
                         <div id="inputContainer">
-                            <input id="name" class="text">
-                            <label for="name">Enter your name here</label>
+                            <input id="name" type="text" placeholder="Enter your full name" required>
+                            <label id="name-label" for="name" class="label">Full name</label>
                         </div>
                         <div id="inputContainer">
-                            <input id="email" type="email" required>
-                            <label for="email">Enter your email here</label>
+                            <input id="email" type="email" placeholder="Enter your email" required>
+                            <label id="email-label" for="email" class="label">Email</label>
                         </div>
+                        <!-- <div id="inputContainer">
+                            <input id="number" type="tel" placeholder="a" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" required>
+                            <label id="number-label" for="number" class="label">Phone number</label>
+                        </div></br> -->
                         <div id="inputContainer">
-                            <input id="number" type="number" required>
-                            <label for="number">Enter your phone number</label>
-                        </div>                    
+                            <input id="number" type="number" min="1" max="130" placeholder="Enter your age" required>
+                            <label id="number-label" for="number" class="label">Age</label>
+                        </div>
+                        <div id="dropdown">
+                            <label id="dropdownMenu">Which use will be fitted to your project?</label></br>
+                            <select id="use">
+                                <option value="Residential">Residential</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Industrial">Industrial</option>
+                                <option value="Interior">Interior</option>
+                                <option value="Other...">Other...</option>
+                            </select>
+                        </div></br>
+                        <div id="radio">
+                            <label id="titleRadio">When do you initially planed to start your project execution?</label></br>
+                            <label for="today"><input id="today" type="radio" name="urgencyProject" value="today">Today</label>
+                            <label for="month"><input id="month" type="radio" name="urgencyProject" value="month">Next Month</label>
+                            <label for="wait"><input id="wait" type="radio" name="urgencyProject" value="wait">It can wait more...</label>
+                        </div></br>
+                        <div id="checkboxes">
+                            <label id="titleCheckboxes">What kind of architectural "style" do you like?</label></br>
+                            <label for="modernism"><input id="modernism" type="checkbox" name="archmovements" value="modernism">Modernism</label></br>
+                            <label for="colonialism"><input id="colonialism" type="checkbox" name="archmovements" value="colonialism">Colonialism</label></br>
+                            <label for="artnoveau"><input id="artnoveau" type="checkbox" name="archmovements" value="artnoveau">Art Noveau</label></br>
+                            <label for="barroque"><input id="barroque" type="checkbox" name="archmovements" value="barroque">Barroque</label></br>
+                            <label for="artdecor"><input id="artdecor" type="checkbox" name="archmovements" value="artdecor">Art Decor</label></br>
+                            <label for="nopreference"><input id="nopreference" type="checkbox" name="archmovements" value="nopreference">No Preference</label>
+                        </div></br>
+                        <div id="textarea">
+                            <label id="textarea">Any other comments?</label></br>
+                            <textarea id="textarea" name="comments" rows="7" cols="50">Enter comments here.</textarea></br>
+                        </div></br>
+                        <div id="button">
+                            <button id="submit" type="submit">Submit</button>
+                        </div>
                     </form>
                 </div>
-            </div>            
+            </div>
         </main>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
