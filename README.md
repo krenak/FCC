@@ -6,7 +6,9 @@ It is advised to follow the common [Git basics](https://git-scm.com/book/en/v2/G
 
 ### Clonning and initializing FCC repository
 All work done here is quite simple to reproduce, contribute and is farly light as well. Hence, is nice to have all files into a folder of your preference and sort of my projects locally in your machine. After that, the whole repository can be cloned into your folder by typing:
+
 ```git clone https://github.com/krenak/FCC.git```
+
 For now, all projects are allocated in the first leg of FCC courses, especially in CSS part. Feel free to contribute, propose changes and enhancements of your taste and needs.
 
 ## Getting in touch
