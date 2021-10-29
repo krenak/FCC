@@ -1,6 +1,17 @@
 # FCC Projects
 Hello, visitor! This repo is my homeworks commited to FCC's projects. You're more than welcome to contribute to any of my personal projects, as we can learn together and exchange any piece of knowledge.
 
+## Summary
+Each project is placed in folders related to FCC's curriculums. For now, the project tree gathers these works:
+
+Responsive Web Design
+	|
+	|___Tribute Page;
+	|
+	|___Survey Form;
+	|
+	|___Landing Page;
+
 ## How to
 It is advised to follow the common [Git basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) and clone any of my projects to start to contribute, but for quick start purposes, I recommend to mimic the steps as follows:
 
