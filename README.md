@@ -9,6 +9,9 @@ Each project is placed in folders related to FCC's curriculums. For now, the pro
 	* Survey Form;
 	* Landing Page;
 
+2. JavaScript Algorithms and data Structure
+	* Ongoing...
+
 ## How to
 It is advised to follow the common [Git basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) and clone any of my projects to start to contribute, but for quick start purposes, I recommend to mimic the steps as follows:
 
