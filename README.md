@@ -4,13 +4,13 @@ Hello, visitor! This repo is my homeworks commited to FCC's projects. You're mor
 ## Summary
 Each project is placed in folders related to FCC's curriculums. For now, the project tree gathers these works as sequenced below:
 
-1. Responsive Web Design
+1. **Responsive Web Design**
 	* Tribute Page;
 	* Survey Form;
 	* Landing Page (ongoing);
     * Technical Documentation (ongoing);
 
-2. JavaScript Algorithms and Data Structure
+2. **JavaScript Algorithms and Data Structure**
 	* Ongoing...
 
 ## How to
